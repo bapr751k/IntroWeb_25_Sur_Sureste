@@ -1,8 +1,8 @@
 body {
-    font-family: 'Roboto Mono', monospace;
     background: #C9D6FF;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+<<<<<<< HEAD
 }
 .header-content-left img {
 width: 250px;
@@ -19,11 +19,37 @@ font-weight: bold;
 
 #comments p {
     background: #8ab9c2;
+=======
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+.header-content-left img {
+    width: 250px;
+    height: 450px;
+}
+
+.header-content-right h1{
+     font-size: 55px;
+}
+
+.header-content-right p{
+    text-align: justify;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#comments {
+    background: #f1f1f1;
+>>>>>>> f3c2d9bf64481f494dc800a4048eb52fa387f59a
     padding: 50px 0 30px 0;
     text-align: center;
     margin-top: 40px;
 }
 
+<<<<<<< HEAD
 #comments img {
   object-fit: cover;
   width: 200px;
@@ -43,6 +69,32 @@ font-weight: bold;
 }
 
 .info-two {
+=======
+#comments p{
+    text-align: justify;
+    font-size: 25px;
+}
+
+#comments img {
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+#info-one h3{
+    text-align: center;
+}
+
+#info-one h3 p{
+    font-weight: bold;
+    font-size: medium;
+    margin: 0 auto;
+}
+
+
+#info-two{
+>>>>>>> f3c2d9bf64481f494dc800a4048eb52fa387f59a
     background: #f1f1f1;
     padding: 50px 0 50px 0;
     text-align: center;
@@ -57,11 +109,16 @@ font-weight: bold;
     flex-basis: auto;
 }
 
+<<<<<<< HEAD
 footer {
+=======
+footer{
+>>>>>>> f3c2d9bf64481f494dc800a4048eb52fa387f59a
     background: url(../images/Contact\ us-pana.svg) no-repeat 75%;
     padding: 10px 10px 10px 10px;
 }
 
+<<<<<<< HEAD
 /* RESPONSIVE DESIGN EN CASO DE SER NECESARIO USANDO MEDIA QUERIES */
 
 @media screen and (max-width:900px) {
@@ -76,4 +133,20 @@ footer {
         background: url(../images/Contact\ us-pana.svg) no-repeat 75%;
         padding: 10px 10px 10px 10px;
     }
+=======
+/* RESPONSIVE DESIGN EN CASO DE SER NECESARIO USANDO MEDIA QUERIES*/
+
+@media screen and (max-width: 1000px) {
+    footer{
+        background: url(../images/Contact\ us-pana.svg) no-repeat 75%;
+        padding: 10px 10px 10px 10px;
+    }
+    
+}
+
+@media screen and (max-width: 570px) {
+    footer{
+        padding: 10px 10px 10px 10px;
+    }    
+>>>>>>> f3c2d9bf64481f494dc800a4048eb52fa387f59a
 }
